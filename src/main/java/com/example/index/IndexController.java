@@ -1,4 +1,4 @@
-package com.howtodoinjava.app.controller;
+package com.example.index;
 
 import java.util.Map;
 
@@ -10,7 +10,7 @@ public class IndexController {
 
 	@RequestMapping("/")
 	public String home(Map<String, Object> model) {
-		model.put("message", "HowToDoInJava Reader !!");
+		model.put("message", "Spring Example!");
 		return "index";
 	}
 	

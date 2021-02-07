@@ -1,4 +1,4 @@
-package com.howtodoinjava.app.controller;
+package com.example;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
